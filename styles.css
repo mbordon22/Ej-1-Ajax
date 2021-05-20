@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e9f6fd+0,d3eefb+100;Blue+3D+%233 */
+    background: rgb(233, 246, 253);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(233, 246, 253, 1) 0%, rgba(211, 238, 251, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(233, 246, 253, 1) 0%, rgba(211, 238, 251, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(233, 246, 253, 1) 0%, rgba(211, 238, 251, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9f6fd', endColorstr='#d3eefb', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    font-family: 'Roboto', sans-serif;
+}
+.container-header{
+    display: flex;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-header button{
+    padding: 10px;
+    color: white;
+    background-color: #cc0000;
+    border-radius: 5px;
+}
+.container-header #input-date{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container #title {
+    text-align: center;
+}
+
+.container #date {
+    text-align: right;
+}
+
+.container img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.container #explanation {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
